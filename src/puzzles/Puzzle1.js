@@ -21,7 +21,7 @@ const Puzzle1 = () => {
 
   return (
     <div>
-      <div className="flex mt-10">
+      <div className="flex mt-10 items-center justify-center">
       <span className="w-1/2 border-2 border-solid border-black rounded-md p-3"><span className="font-semibold">Description: </span>This puzzle requires you to build a React application that displays a dynamic list of items. Each item should have its own text and the ability to be crossed out through a strike-through effect when clicked. Users should be able to add new items to the list and clear all existing items at once.</span>
       </div>
       <div className="flex gap-4 justify-center items-center mt-12">
